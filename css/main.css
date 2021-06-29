@@ -1,0 +1,42 @@
+ul {
+  background-color: blueviolet;
+  position: sticky;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 14px 16px;
+  text-align: center;
+  /* float: right; */
+  background-color: blueviolet;
+}
+
+li a:hover {
+  background-color: darkmagenta;
+}
+
+.active {
+  background-color: bisque;
+  color: black;
+}
+.nav-item {
+  text-decoration: none;
+}
+
+.main-title {
+  text-align: center;
+}
+
+#main-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  border: 1px;
+}
